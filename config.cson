@@ -1,9 +1,13 @@
 'editor':
   'fontSize': 16
+  'preferredLineLength': 130
 'core':
   'themes': [
     'atom-dark-ui'
     'twilight'
+  ]
+  'disabledPackages': [
+    'wrap-guide'
   ]
 'exception-reporting':
   'userId': 'd4061c95-56e7-c67f-7ffb-4e2a98d6eaba'
@@ -13,3 +17,7 @@
   'showOnStartup': false
 'metrics':
   'userId': '739b23e24c1f702abbc82f4f8f5d274c66bccec5'
+'autosave':
+  'enabled': true
+'whitespace':
+  'ignoreWhitespaceOnCurrentLine': false
