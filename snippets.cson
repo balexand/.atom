@@ -13,3 +13,16 @@
 #     'prefix': 'log'
 #     'body': 'console.log $1'
 #
+'.source.ruby':
+  'it (does something)':
+    'prefix': 'it'
+    'body': 'it "${1:does something}" do\n  $0\nend'
+  'describe (Controller)':
+    'prefix': 'desc'
+    'body': 'require \'spec_helper\'\n\ndescribe ${1:controller} do\n  $0\nend'
+  'describe':
+    'prefix': 'des'
+    'body': 'describe "${1:something}" do\n  $0\nend'
+  'context':
+    'prefix': 'con'
+    'body': 'context "${1:something}" do\n  $0\nend'
