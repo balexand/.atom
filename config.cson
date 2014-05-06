@@ -3,7 +3,7 @@
 'core':
   'themes': [
     'atom-dark-ui'
-    'atom-dark-syntax'
+    'twilight'
   ]
 'exception-reporting':
   'userId': 'd4061c95-56e7-c67f-7ffb-4e2a98d6eaba'
