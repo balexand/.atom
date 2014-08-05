@@ -1,18 +1,24 @@
 'editor':
-  'fontSize': 16
-  'preferredLineLength': 130
+  'fontSize': 17
+  'preferredLineLength': 120
+  'showIndentGuide': true
 'core':
   'themes': [
     'atom-dark-ui'
     'twilight'
   ]
   'disabledPackages': [
-    'wrap-guide'
+    'background-tips'
+  ]
+  'ignoredNames': [
+    '.git'
+    '.DS_Store'
+    'vendor'
   ]
 'exception-reporting':
   'userId': 'd4061c95-56e7-c67f-7ffb-4e2a98d6eaba'
 'release-notes':
-  'viewedVersion': '0.94.0'
+  'viewedVersion': '0.95.0'
 'welcome':
   'showOnStartup': false
 'metrics':

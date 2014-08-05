@@ -26,3 +26,9 @@
   'context':
     'prefix': 'con'
     'body': 'context "${1:something}" do\n  $0\nend'
+  'before':
+    'prefix': 'bef'
+    'body': 'before(:each) do\n  $0\nend'
+  'module':
+    'prefix': 'mod'
+    'body': 'module ${1}\n  $0\nend'
